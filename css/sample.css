@@ -1,7 +1,21 @@
+/** reset.css from http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) 
+   [credited as a developer tool]**/
+
+html, body, h1, h2, p, a, abbr, img, article, aside, header, nav, section
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 body{
 	font-family: Arial, "Times New Roman", serif;
 	color: #FFFFFF;
-	margin: 4%;
 	background-color: #483766;
 }
 
@@ -65,11 +79,10 @@ h2{
 }
 
 section{
-	background:  #9977BB;
+	background: #9977BB;
 	height: 200px;
 	padding: 1%;
 	overflow: auto;
-	/** overflow = scrollbar when too small**/
 }
 
 .half{
@@ -86,20 +99,10 @@ section{
 
 ul{
 	list-style-type: square;
-	/**
-	 * need to learn to resize list-style-image
-	 * 
-	 * list-style-image: url("../images/star.png");
-		check url for more info on how-to: https://stackoverflow.com/questions/7775594/css-list-style-image-size;
-}
-	/**
-	 * wait for css selectors to add font awesome icons to css
-	 * list-style-image: circle url(<i class="fas fa-star"></i>);**/
 }
 
 details{
 	font-style: italic;
-
 }
 
 summary{
