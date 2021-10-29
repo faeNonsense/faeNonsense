@@ -117,3 +117,23 @@ footer{
 img{
 	width: 75px;
 }
+
+.left{
+
+	display: table;
+	background-color: #787B1E;
+	float: left;
+	width: 22%;
+	height: 100%;
+	padding: 0.5%;
+	margin: auto;
+}
+
+
+.right{
+	display: inline-block;
+	float: right;
+	width: 76%;
+	height: auto;
+	margin: auto;
+}
