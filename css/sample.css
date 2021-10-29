@@ -1,3 +1,8 @@
+/** reset.css from http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) 
+   [credited as a developer tool]**/
+
 html, body, h1, h2, p, a, abbr, img, article, aside, header, nav, section
 {
 	margin: 0;
@@ -47,47 +52,14 @@ h2{
 nav>a{
     display: inline-block;
     text-decoration: none;
+    background-color: #CCAADD;
     border-radius: 5px;
     text-align: center;
     font-size: 15px;
-    font-weight: bold;
     color: #D0F6FF;
-    background-color: #CCAADD;
     padding: 15px;
     width: 150px;
     margin: 2%;
-}
-
-.left{
-
-	display: table;
-	background-color: #9675b8;
-	float: left;
-	width: 22%;
-	height: 100%;
-	padding: 0.5%;
-	margin: auto;
-}
-
-
-.right{
-	display: inline-block;
-	background-color: #9675b8;
-	float: right;
-	width: 76%;
-	height: auto;
-	margin: auto;
-}
-
-img{
-	display: table-cell;
-	vertical-align: middle;
-	width: 80%;
-	height: auto;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #000000;
-	margin: 9% auto;
 }
 
 a:hover{
@@ -108,6 +80,42 @@ a:visited{
 
 }
 
+.active{
+	background-color: #9675b8;
+	color: #000000;
+}
+
+.left{
+
+	display: table;
+	background-color: #9675b8;
+	float: left;
+	width: 22%;
+	height: 100%;
+	padding: 0.5%;
+	margin: auto;
+}
+
+
+.right{
+	display: inline-block;
+	float: right;
+	width: 76%;
+	height: auto;
+	margin: auto;
+}
+
+img{
+	display: table-cell;
+	vertical-align: middle;
+	width: 80%;
+	height: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	margin: 9% auto;
+}
+
 ul{
 	list-style-type: circle;
 }
@@ -121,7 +129,6 @@ summary{
 }
 
 footer{
-	padding: 0.5%;
 	background-color: #9977BB;
 	text-align: center;
 }
