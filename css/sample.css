@@ -13,18 +13,7 @@ html, body, h1, h2, p, a, abbr, img, article, aside, header, nav, section
 	vertical-align: baseline;
 }
 
-header, footer, .left{
-	text-align: center;
-	background-color: #9977BB;
-	background: -moz-linear-gradient(top, #212121 10%, #9977BB 100%);
-	background: -webkit-linear-gradient(#212121 10%, #9977BB 100%);
-	background: -o-linear-gradient(#212121 10%, #9977BB 100%);
-	background: linear-gradient(#212121 10%, #9977BB 100%);
-
-}
-
 body{
-	font-family: "Times New Roman", serif;
 	color: #FFFFFF;
 	background-color: #483766;
 	padding: 1%;
@@ -43,8 +32,7 @@ header{
 }
 
 h1{
-	color: #CCAADD;
-	text-transform: uppercase;
+	color: #483766;
 	text-align: center;
 	font-size: 15px;
 	font-weight: bold;
@@ -90,8 +78,15 @@ a:visited{
 }
 
 .active{
-	background-color: #9675b8;
 	color: #000000;
+}
+
+.right{
+	display: inline-block;
+	float: right;
+	width: 76%;
+	height: auto;
+	margin: auto;
 }
 
 .left{
@@ -105,14 +100,6 @@ a:visited{
 	margin: auto;
 }
 
-
-.right{
-	display: inline-block;
-	float: right;
-	width: 76%;
-	height: auto;
-	margin: auto;
-}
 
 img{
 	display: table-cell;
