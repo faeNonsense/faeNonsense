@@ -13,6 +13,16 @@ html, body, h1, h2, p, a, abbr, img, article, aside, header, nav, section
 	vertical-align: baseline;
 }
 
+header, footer, .left{
+	text-align: center;
+	background-color: #9977BB;
+	background: -moz-linear-gradient(top, #212121 10%, #9977BB 100%);
+	background: -webkit-linear-gradient(#212121 10%, #9977BB 100%);
+	background: -o-linear-gradient(#212121 10%, #9977BB 100%);
+	background: linear-gradient(#212121 10%, #9977BB 100%);
+
+}
+
 body{
 	font-family: "Times New Roman", serif;
 	color: #FFFFFF;
@@ -30,7 +40,6 @@ p{
 header{
 	background-color: #9977BB;
 	padding: 1%;
-	text-align: center;
 }
 
 h1{
@@ -130,15 +139,4 @@ summary{
 
 footer{
 	background-color: #9977BB;
-	text-align: center;
-}
-
-header, footer, .left{
-	text-align: center;
-	background-color: #9977BB;
-	background: -moz-linear-gradient(top, #212121 10%, #9977BB 100%);
-	background: -webkit-linear-gradient(#212121 10%, #9977BB 100%);
-	background: -o-linear-gradient(#212121 10%, #9977BB 100%);
-	background: linear-gradient(#212121 10%, #9977BB 100%);
-
 }
