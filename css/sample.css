@@ -85,20 +85,9 @@ section{
 	overflow: auto;
 }
 
-.half{
-	width: 45%;
-	margin: 0.5% auto;
-	display: inline-block;
-	float: all;
-}
-
-.whole{
-	clear: both;
-	margin: 0.5% auto;
-}
 
 ul{
-	list-style-type: square;
+	list-style-type: circle;
 }
 
 details{
@@ -111,11 +100,6 @@ summary{
 
 footer{
 	padding: 0.5%;
-}
-
-
-img{
-	width: 75px;
 }
 
 .left{
