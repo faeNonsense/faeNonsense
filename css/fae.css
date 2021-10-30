@@ -124,7 +124,7 @@ summary{
 	font-style: normal;
 }
 
-header, footer{
+header{
 	text-align: center;
 	background-color: #9977BB;
 	background: -moz-linear-gradient(top, #212121 10%, #9977BB 100%);
@@ -132,4 +132,8 @@ header, footer{
 	background: -o-linear-gradient(#212121 10%, #9977BB 100%);
 	background: linear-gradient(#212121 10%, #9977BB 100%);
 
+}
+
+footer{
+	clear: all;
 }
