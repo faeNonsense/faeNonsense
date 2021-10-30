@@ -100,6 +100,9 @@ a:visited{
 	margin: auto;
 }
 
+footer{
+	clear: both;
+}
 
 img{
 	display: table-cell;
@@ -132,8 +135,4 @@ header{
 	background: -o-linear-gradient(#212121 10%, #9977BB 100%);
 	background: linear-gradient(#212121 10%, #9977BB 100%);
 
-}
-
-footer{
-	clear: all;
 }
