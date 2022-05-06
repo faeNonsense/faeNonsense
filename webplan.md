@@ -4,7 +4,9 @@
 __________________________________________________________________________________________
 
 {0} create separate <head> .html document & link.
+  
 {0} create a <header> & {footer} .html document & link.
+  
 {0} create a <nav> .html document & link.
 
 Thoughts;
