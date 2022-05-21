@@ -8,17 +8,21 @@ html, body, h1, h2, p, a, abbr, img, article, aside, header, nav, section
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 15px;
 	font: inherit;
 	vertical-align: baseline;
+}
+
+section{
+	height: 100vh;
 }
 
 body{
 	color: #FFFFFF;
 	background-color: #483766;
-	padding: 1%;
-	margin: 1%;
-	height: 100%;
+	padding: 0;
+	margin: 0;
+	height:  100vh;
 }
 
 p{
@@ -28,21 +32,20 @@ p{
 
 header{
 	background-color: #9977BB;
-	padding: 1%;
 }
 
 h1{
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 20px;
+	font-weight: bolder;
 	padding: 1%;
 }
 
 h2{
 	color: #CCAADD;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
 
 }
 
@@ -53,11 +56,12 @@ nav>a{
     border-radius: 5px;
     text-align: center;
     font-size: 15px;
-    color: #D0F6FF;
+    color: #000000;
     padding: 15px;
     width: 150px;
+    height: 100%;
     margin: 2%;
-}
+ }
 
 a:hover{
 	background: #D0F6FF;
@@ -81,27 +85,29 @@ a:visited{
 	color: #000000;
 }
 
-.right{
-	display: inline-block;
-	float: right;
-	width: 76%;
-	height: auto;
-	margin: auto;
-}
-
 .left{
 
 	display: table;
 	background-color: #9675b8;
 	float: left;
-	width: 22%;
-	height: 100%;
-	padding: 0.5%;
-	margin: auto;
+	width: 20vh;
+	height: 100vh;
+	padding: 1%;
+	margin: 0;
+}
+
+.right{
+	display: inline-block;
+	float: inherit;
+	width: 70vh;
+	height: 100vh;
+	padding: 2%;
+	margin: 0;
 }
 
 footer{
 	clear: both;
+	text-align: center;
 }
 
 img{
