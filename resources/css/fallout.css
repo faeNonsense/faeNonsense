@@ -27,7 +27,6 @@ body{
 
 p{
 	line-height: normal;
-	margin: 2%;
 }
 
 header{
@@ -103,6 +102,10 @@ a:visited{
 	height: 100vh;
 	padding: 2%;
 	margin: 0;
+}
+
+.special{
+	
 }
 
 footer{
