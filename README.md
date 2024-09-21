@@ -2,7 +2,7 @@
 
 - 🔭 I’m currently working on personal websites for practice.
 - 🌱 I’m in a coding bootcamp for Web Development.
-- 🤔 I’m looking for help with html, css, web-centric Javascript, and the fundamentals of web hosting.
+- 🤔 I’m not currently looking for help, but I'm open to it.
 - 📫 How to reach me: (TBD) 
 
 <!--
